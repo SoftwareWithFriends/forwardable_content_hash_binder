@@ -11,6 +11,10 @@ class ForwardableContentHashBinder
     @content_hash[method.to_s]
   end
 
+  def []=(key,value)
+    content_hash[key] = value
+  end
+
   def get_binding
     binding
   end

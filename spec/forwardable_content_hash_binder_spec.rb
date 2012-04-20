@@ -23,5 +23,12 @@ describe ForwardableContentHashBinder do
     expect { document_content.stock_ticker_information }.to raise_error NoMethodError
   end
 
+  it "should allow assignment" do
+   field = "Test data"
+   document_content["test"] = field
+
+   document_content.test.should == field
+  end
+
 end
 
