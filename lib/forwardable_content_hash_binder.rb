@@ -8,7 +8,9 @@ class ForwardableContentHashBinder
 
   def method_missing(method, *args)
     super(method, args) unless @content_hash[method.to_s]
-    @content_hash[method.to_s]
+    value = @content_hash[method.to_s]
+    return value unless value.kind_of? Proc
+    value.call
   end
 
   def []=(key,value)

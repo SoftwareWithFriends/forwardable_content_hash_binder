@@ -23,6 +23,13 @@ describe ForwardableContentHashBinder do
     expect { document_content.stock_ticker_information }.to raise_error NoMethodError
   end
 
+  it "should call proc" do
+    a = 0
+    content_hash["proc"] = lambda {a += 1; "I'm #{a} handsome blocke!" }
+    document_content.proc.should == "I'm 1 handsome blocke!"
+    document_content.proc.should == "I'm 2 handsome blocke!"
+  end
+
   it "should allow assignment" do
    field = "Test data"
    document_content["test"] = field
