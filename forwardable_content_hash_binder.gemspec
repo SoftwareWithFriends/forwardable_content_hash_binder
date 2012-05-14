@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "forwardable_content_hash_binder"
-  s.version = "1.3.0"
+  s.version = "1.5.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["perf"]
-  s.date = "2012-04-09"
+  s.date = "2012-05-14"
   s.description = "Forwards methods to hash as keys"
   s.email = "perf@skarven.net"
   s.extra_rdoc_files = [
