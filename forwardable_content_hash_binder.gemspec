@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.version = "1.5.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Ryan McGarvey", "Tim Johnson"]
-  s.date = "2012-05-14"
+  s.authors = ["perf"]
+  s.date = "2013-07-01"
   s.description = "Forwards methods to hash as keys"
-  s.email = ["mcgarvey.ryan@gmail.com", "buddhistpirate@chubtoad.com"]
+  s.email = "perf@skarven.net"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -31,10 +31,10 @@ Gem::Specification.new do |s|
     "spec/forwardable_content_hash_binder_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "https://github.com/SoftwareWithFriends/forwardable_content_hash_binder"
+  s.homepage = "http://github.com/ryanmcgarvey/forwardable_content_hash_binder"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.10"
+  s.rubygems_version = "1.8.24"
   s.summary = "Forwards methods to hash as keys"
 
   if s.respond_to? :specification_version then
