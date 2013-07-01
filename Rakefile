@@ -15,12 +15,12 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "forwardable_content_hash_binder"
-  gem.homepage = "http://github.com/ryanmcgarvey/forwardable_content_hash_binder"
+  gem.homepage = "https://github.com/SoftwareWithFriends/forwardable_content_hash_binder"
   gem.license = "MIT"
   gem.summary = %Q{Forwards methods to hash as keys}
   gem.description = %Q{Forwards methods to hash as keys}
-  gem.email = "perf@skarven.net"
-  gem.authors = ["perf"]
+  gem.email = ["mcgarvey.ryan@gmail.com", "buddhistpirate@chubtoad.com"]
+  gem.authors = ["Ryan McGarvey", "Tim Johnson"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
