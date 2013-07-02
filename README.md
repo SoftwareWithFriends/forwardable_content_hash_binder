@@ -2,6 +2,8 @@ Forwardable Content Hash Binder
 ===============================
 A small helper class for exposing Hashes to ERB templates or other binding scoped scenarios.
 
+[![Gem Version](https://badge.fury.io/rb/forwardable_content_hash_binder.png)](http://badge.fury.io/rb/forwardable_content_hash_binder)
+
 Installation
 ------------
 gem install forwardable_content_hash_binder
