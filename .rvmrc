@@ -1,1 +1,1 @@
-rvm use 1.9.3-p0@forwardable_content_hash_binder
+rvm use --create 1.9.3-p0@forwardable_content_hash_binder
